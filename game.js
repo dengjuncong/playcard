@@ -5,7 +5,7 @@ window.onload = function() {
     if (deck == null) {
       deck = (new Deck()).shuffle();
     } else {
-      if (confirm("È·¶¨ÒªÖØĞÂÏ´ÅÆÂğ")) {
+      if (confirm("ç¡®å®šé‡æ–°æ´—ç‰Œå—")) {
         deck = (new Deck()).shuffle();
       }
     }
@@ -13,7 +13,7 @@ window.onload = function() {
   
   document.getElementById("deal").addEventListener("click", function() {
     if (deck == null) {
-      alert("ÇëÏÈÏ´ÅÆ")
+      alert("è¯·å…ˆæ´—ç‰Œ")
     } else {
       deck = deck.deal(13).sort(Card.orderByRank);
       for (var i=0; i<13; i++) {
