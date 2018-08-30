@@ -1,0 +1,16 @@
+#desk { background:#f3f3f3; width:330px; height:220px;}
+#cardSet { padding-top:10px; overflow:hidden; }
+#cardSet div { float:left; }
+#card_1 { position: absolute; left:12px; }
+#card_2 { position: absolute; left:24px; }
+#card_3 { position: absolute; left:36px; }
+#card_4 { position: absolute; left:48px; }
+#card_5 { position: absolute; left:60px; }
+#card_6 { position: absolute; left:72px; }
+#card_7 { position: absolute; left:84px; }
+#card_8 { position: absolute; left:96px; }
+#card_9 { position: absolute; left:108px; }
+#card_10 { position: absolute; left:120px; }
+#card_11 { position: absolute; left:132px; }
+#card_12 { position: absolute; left:144px; }
+#card_13 { position: absolute; left:156px; }
